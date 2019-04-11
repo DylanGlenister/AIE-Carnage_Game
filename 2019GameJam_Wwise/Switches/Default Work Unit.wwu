@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DCED3942-3BC7-4DFF-9272-F9721D5CA700}" SchemaVersion="94">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{DCED3942-3BC7-4DFF-9272-F9721D5CA700}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PLAYER" ID="{AC1AAEF0-07D2-4100-B7EF-583CEF11D29B}" ShortID="827619549">
+					<ChildrenList>
+						<Folder Name="DRIVING_ON" ID="{DA662921-CB44-40A2-A8DB-D55BC7235816}" ShortID="911181252">
+							<ChildrenList>
+								<SwitchGroup Name="P2_DrivingOn" ID="{52B82C82-5958-425A-8F4C-78EE5021CC9C}">
+									<ChildrenList>
+										<Switch Name="P2_onRoad" ID="{B55C646B-EB7B-44DC-8F6D-466536AEF1C3}"/>
+										<Switch Name="P2_onGrass" ID="{F6BC1D55-51A3-4802-A737-D5B96532BCBB}"/>
+									</ChildrenList>
+								</SwitchGroup>
+								<SwitchGroup Name="P1_DrivingOn" ID="{CF69EEB1-7261-4E1F-92CF-C7765D5B5EC5}">
+									<ChildrenList>
+										<Switch Name="P1_onRoad" ID="{7EB7DEE5-807B-4C4F-BCB5-E120349468C1}"/>
+										<Switch Name="P1_onGrass" ID="{C09CF414-2D2A-46DB-A803-82610DF4AFE4}"/>
+									</ChildrenList>
+								</SwitchGroup>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="COLLISION_WITH" ID="{3F5F8C2B-F1E3-4CCE-B6C2-824C05140D18}" ShortID="227490652">
+							<ChildrenList>
+								<SwitchGroup Name="Collider" ID="{FC224CEB-46D0-4A31-891E-D8AA40D76FEC}">
+									<ChildrenList>
+										<Switch Name="OtherCar" ID="{72049FBA-F95C-4C4B-B627-535B1EE5E926}"/>
+										<Switch Name="Wall" ID="{98DB4CFA-0E38-4590-8E92-78AC15A06A8B}"/>
+										<Switch Name="Checkpoint" ID="{D7CD8A56-704D-406F-AA26-49BBDC18F7A7}"/>
+										<Switch Name="Finish_Checkpoint" ID="{5EB8F986-0254-414B-8F68-23FCAEA2A9F0}"/>
+									</ChildrenList>
+								</SwitchGroup>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="CAR_CHOICE" ID="{D3616C14-04D3-42C2-BE4D-C31BA0D3C4E9}" ShortID="584195877">
+							<ChildrenList>
+								<SwitchGroup Name="P1_CarChoice" ID="{7E7615CE-BC87-4852-9552-70D98FBEF29E}">
+									<ChildrenList>
+										<Switch Name="P1_Car1" ID="{060AD35F-17D8-4CC7-B914-439FE3C00829}"/>
+										<Switch Name="P1_Car2" ID="{6928D101-F4AB-47A3-A468-6F37F7C5388C}"/>
+										<Switch Name="P1_Car3" ID="{CDE593A1-497E-428C-A8FD-8B78D0E0C780}"/>
+									</ChildrenList>
+								</SwitchGroup>
+								<SwitchGroup Name="P2_CarChoice" ID="{D5DC3737-9B8B-4036-A955-0CCE54F5A643}">
+									<ChildrenList>
+										<Switch Name="P2_Car1" ID="{AF884B61-1903-44B6-9B34-73EDFED63F7A}"/>
+										<Switch Name="P2_Car2" ID="{8854B53C-E9C6-43ED-A5D3-6AEF0AE48839}"/>
+										<Switch Name="P2_Car3" ID="{F6883B18-9330-4398-B4BF-51B2B4418E2D}"/>
+									</ChildrenList>
+								</SwitchGroup>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

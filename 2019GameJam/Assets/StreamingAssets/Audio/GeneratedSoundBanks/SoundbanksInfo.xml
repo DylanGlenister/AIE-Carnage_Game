@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\GENERAL</ObjectPath>
+			<ShortName>GENERAL</ShortName>
+			<Path>GENERAL.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2368342272" Name="SCNAwake" ObjectPath="\Events\Default Work Unit\SCENE\SCNAwake" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="61562484" Language="SFX">
+					<ShortName>for 2.wav</ShortName>
+					<Path>SFX\for 2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="161376406" Language="SFX">
+					<ShortName>for 3.wav</ShortName>
+					<Path>SFX\for 3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="257847238" Language="SFX">
+					<ShortName>menu3.wav</ShortName>
+					<Path>SFX\menu3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="587210305" Language="SFX">
+					<ShortName>menu.wav</ShortName>
+					<Path>SFX\menu_D79FB2B7.wem</Path>
+				</File>
+				<File Id="637747011" Language="SFX">
+					<ShortName>for 4.wav</ShortName>
+					<Path>SFX\for 4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="703340626" Language="SFX">
+					<ShortName>for 1.wav</ShortName>
+					<Path>SFX\for 1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="873463440" Language="SFX">
+					<ShortName>menu4.wav</ShortName>
+					<Path>SFX\menu4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="951473930" Language="SFX">
+					<ShortName>menu2.wav</ShortName>
+					<Path>SFX\menu2_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

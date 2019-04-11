@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{728CC22B-BF35-4174-A783-529E115D6E3C}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{728CC22B-BF35-4174-A783-529E115D6E3C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{167B3E7A-8B7A-4327-B671-ACC65CCAF4E8}" ShortID="1023376229">
+					<ChildrenList>
+						<RandomSequenceContainer Name="UI_MouseEnterExit" ID="{2ABE22A8-6D43-4877-A8B4-7E21B15997DC}" ShortID="778417061">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="UI_MouseUpDown" ID="{5A0AD112-9293-43BB-B50B-893930ADC904}" ShortID="698974280">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Gameplay" ID="{13780EC3-BFA1-4835-9C32-B92C271E0FDC}" ShortID="554662348">
+					<ChildrenList>
+						<Folder Name="Ambience" ID="{B789E0E6-16F9-4B5B-AD09-EE4FBE373DF2}" ShortID="864418951">
+							<ChildrenList>
+								<SwitchContainer Name="Track_Loc" ID="{7C0ECDDE-7D5B-4558-AC99-8B02210A10EF}" ShortID="80911610">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Forest" ID="{4216753F-5251-4BE6-AAB9-5519A35478FB}" ShortID="838298323">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="FOREST_Birds" ID="{EDB44C58-09D6-4352-9F4A-F3E6554FCB5A}" ShortID="962830445">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{236624F8-0A9C-4E29-A608-66EB4C6CAF4A}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{A18A7A04-D5CE-4933-9B37-CD2CE7772415}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="0.25"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E762F6FA-3072-41F8-9E30-E680305EFB6A}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3">
+															<ObjectRef Name="Forest" ID="{CD538FCE-1EFA-4395-BE71-E35D54A57F75}" WorkUnitID="{33EB1407-1601-4B0D-A620-9099C0353115}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Forest Birds1" ID="{3719D26D-926E-42CB-A2F1-9CA99762AEEA}" ShortID="848811746">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{ED98BD02-896E-4393-9269-59F5408958E1}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="101"/>
+																					<Property Name="Min" Type="Real64" Value="-354"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{307D9A1B-F941-4F39-A54C-EF50E9621334}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-8"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Forest Birds1" ID="{0C60C004-147C-44C7-BD44-6FDCA7C59B1A}" ShortID="552451730">
+																	<Language>SFX</Language>
+																	<AudioFile>Forest Birds1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Forest Birds1" ID="{0C60C004-147C-44C7-BD44-6FDCA7C59B1A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Forest Birds2" ID="{E163BA01-D53F-4EA8-88B9-0D1558739518}" ShortID="321619959">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{587209FE-78BD-40CA-AC03-A3C49FC0302C}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="100"/>
+																					<Property Name="Min" Type="Real64" Value="-227"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{F978CAAF-5AEA-4C65-A9F7-4E546FA48DE6}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-8"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Forest Birds2" ID="{F7F0A2C8-F84D-4970-9ACD-6C04488BDF01}" ShortID="607014039">
+																	<Language>SFX</Language>
+																	<AudioFile>Forest Birds2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Forest Birds2" ID="{F7F0A2C8-F84D-4970-9ACD-6C04488BDF01}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Forest Birds3" ID="{1F5A6CB4-9B60-43C1-8C57-5F8267D95949}" ShortID="537103518">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{B9F8F728-500F-476C-AFF9-300AE97FF997}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="100"/>
+																					<Property Name="Min" Type="Real64" Value="-285"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{4FB1A3DF-2341-4301-91F3-C3C4E049C559}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-8"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Forest Birds3" ID="{40BE7C70-8A21-4C7E-8BCF-8E9D53828813}" ShortID="413125955">
+																	<Language>SFX</Language>
+																	<AudioFile>Forest Birds3.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Forest Birds3" ID="{40BE7C70-8A21-4C7E-8BCF-8E9D53828813}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Forest" ID="{4216753F-5251-4BE6-AAB9-5519A35478FB}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Car" ID="{18B28CB5-D5BF-4012-9F37-287567DE34DC}" ShortID="505074234">
+							<ChildrenList>
+								<SwitchContainer Name="P1_CarType" ID="{D807A2C8-2A0F-403A-ADBC-DAA9D8F9FB1C}" ShortID="717554034">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="P1_CarChoice" ID="{7E7615CE-BC87-4852-9552-70D98FBEF29E}" WorkUnitID="{DCED3942-3BC7-4DFF-9272-F9721D5CA700}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Car1" ID="{41A5C44E-7C33-4BF6-9596-3B67A0B44524}" ShortID="403035341">
+											<Comment>Chevrolet Camaro SS</Comment>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="CrankcaseAudio REV" ID="{C1CFCFD5-D70F-4C10-8EF6-932C9A2965E7}" ShortID="1055855698" PluginName="CrankcaseAudio REV" CompanyID="261" PluginID="416">
+													<PropertyList>
+														<Property Name="RPM" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{3B438D13-8F11-430B-98A9-615EB80545B2}" ShortID="992825685">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P1_Speed" ID="{16DCA0A6-F42D-472B-8BA5-88417E352DF9}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{C33C0B09-B095-4CC2-B169-B021846EE7CD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="Throttle" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{4558093A-D18C-4716-BC6E-7AF1EFCDFC81}" ShortID="31484891">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P1_Speed" ID="{16DCA0A6-F42D-472B-8BA5-88417E352DF9}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{E2ECFA66-C862-4E72-8247-269015224456}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>14.31953</XPos>
+																				<YPos>0.25399</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.55875</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Chevrolet_Camaro_SS" ID="{B15E5A41-431E-4794-BC7C-8242A5772C11}" ShortID="607753823">
+															<ParentPluginID>27267154</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Chevrolet_Camaro_SS.model"/>
+															</PropertyList>
+															<ConvertedFileIDList>
+																<File ID="614481336"/>
+															</ConvertedFileIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+													<PluginInnerObjectList>
+														<List Name="AccelDecelModelControlData">
+															<PluginInnerObject Name="" ID="{A0296401-49C1-45F0-8DED-1D06B55E9F38}" PluginName="AccelDecelModelControlData" CompanyID="261" PluginID="418">
+																<PropertyList>
+																	<Property Name="AccelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.46</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="DecelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.46</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopDuration" Type="Real32">
+																		<ValueList>
+																			<Value>0.7</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopRange" Type="int32">
+																		<ValueList>
+																			<Value>3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsEngineDuck" Type="Real32">
+																		<ValueList>
+																			<Value>0.3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMax" Type="Real32">
+																		<ValueList>
+																			<Value>0.2</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMin" Type="Real32">
+																		<ValueList>
+																			<Value>0.01</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMax" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMin" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="Version" Type="int32" Value="2"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="EngineSimulationControlData">
+															<PluginInnerObject Name="" ID="{830668F4-E775-455A-B9DE-0B79D48C9864}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417">
+																<PropertyList>
+																	<Property Name="ClutchRPMMergeTime" Type="Real32" Value="0.3"/>
+																	<Property Name="ClutchRPMSpike" Type="Real32" Value="0.66"/>
+																	<Property Name="UpShiftAttackThrottleTime" Type="Real32" Value="0.1"/>
+																	<Property Name="UpShiftDuration" Type="Real32" Value="0.4"/>
+																	<Property Name="UpShiftWobbleDuration" Type="Real32" Value="0.45"/>
+																	<Property Name="UpShiftWobblePitchAmp" Type="Real32" Value="0.5"/>
+																	<Property Name="UpShiftWobblePitchFreq" Type="Real32" Value="50"/>
+																	<Property Name="UpShiftWobbleVolFreq" Type="Real32" Value="10"/>
+																</PropertyList>
+															</PluginInnerObject>
+															<PluginInnerObject Name="" ID="{2E7A78C6-2CBF-4870-931A-FE529DABBC41}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417"/>
+														</List>
+														<List Name="GranularModelControlData_Acceleration">
+															<PluginInnerObject Name="" ID="{D6E56B23-2C2C-429B-B751-AD79D8767E14}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.46"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Deceleration">
+															<PluginInnerObject Name="" ID="{94D6C0F6-594E-40F9-8CBA-DDAFBDCDBF1E}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.46"/>
+																	<Property Name="LoadVolumeOn" Type="Real32" Value="0"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+													</PluginInnerObjectList>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrankcaseAudio REV" ID="{C1CFCFD5-D70F-4C10-8EF6-932C9A2965E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Car3" ID="{362F4F9B-FEE1-41E5-9383-4F13856EA334}" ShortID="885827954">
+											<Comment>Honda Civic</Comment>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="CrankcaseAudio REV" ID="{BA9F8CD0-7263-45A6-8856-3109A3DFC829}" ShortID="743700717" PluginName="CrankcaseAudio REV" CompanyID="261" PluginID="416">
+													<PropertyList>
+														<Property Name="RPM" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{CFC4ADC6-98AD-48F2-A218-1FF2CB25EE38}" ShortID="253697828">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P1_Speed" ID="{16DCA0A6-F42D-472B-8BA5-88417E352DF9}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{D712701A-17A2-4CA3-8E22-AB13C70AE47B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="Throttle" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{9D0D014A-7FB4-483A-BD32-0FE9FC69BB10}" ShortID="1008913569">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P1_Speed" ID="{16DCA0A6-F42D-472B-8BA5-88417E352DF9}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{088CD775-5149-448E-BF36-B2885F2D6D86}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20.35503</XPos>
+																				<YPos>0.30809</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.84073</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Honda_Civic" ID="{4BA442A4-96EA-405E-B46B-74BA46ABCB45}" ShortID="772765336">
+															<ParentPluginID>27267154</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Honda_Civic.model"/>
+															</PropertyList>
+															<ConvertedFileIDList>
+																<File ID="477695397"/>
+															</ConvertedFileIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+													<PluginInnerObjectList>
+														<List Name="AccelDecelModelControlData">
+															<PluginInnerObject Name="" ID="{2F20B6F8-A1E8-481B-9D59-CF436E13FC43}" PluginName="AccelDecelModelControlData" CompanyID="261" PluginID="418">
+																<PropertyList>
+																	<Property Name="AccelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.23</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="DecelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.86</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="DecelVolume_On" Type="Real32">
+																		<ValueList>
+																			<Value>0.46</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="GrainWidth" Type="int32">
+																		<ValueList>
+																			<Value>4</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="IdleRampIn" Type="Real32" Value="0.03"/>
+																	<Property Name="IdleVolume" Type="Real32" Value="0.5"/>
+																	<Property Name="LowPassEnabled" Type="bool" Value="False"/>
+																	<Property Name="PopDuration" Type="Real32">
+																		<ValueList>
+																			<Value>0.7</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopRange" Type="int32">
+																		<ValueList>
+																			<Value>3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsEngineDuck" Type="Real32">
+																		<ValueList>
+																			<Value>0.3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMax" Type="Real32">
+																		<ValueList>
+																			<Value>0.2</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMin" Type="Real32">
+																		<ValueList>
+																			<Value>0.01</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMax" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMin" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="Version" Type="int32" Value="2"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="EngineSimulationControlData">
+															<PluginInnerObject Name="" ID="{D2516CDD-1D84-4FCA-8860-68813FA56694}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417">
+																<PropertyList>
+																	<Property Name="ClutchRPMMergeTime" Type="Real32" Value="0.68"/>
+																	<Property Name="ClutchRPMSpike" Type="Real32" Value="0.5"/>
+																	<Property Name="DownShiftDuration" Type="Real32" Value="0.54"/>
+																	<Property Name="UpShiftAttackThrottleTime" Type="Real32" Value="0.2"/>
+																	<Property Name="UpShiftWobbleDuration" Type="Real32" Value="0.55"/>
+																	<Property Name="UpShiftWobblePitchAmp" Type="Real32" Value="0.276"/>
+																	<Property Name="UpShiftWobblePitchFreq" Type="Real32" Value="9"/>
+																	<Property Name="UpShiftWobbleVolAmp" Type="Real32" Value="0.3"/>
+																	<Property Name="UpShiftWobbleVolFreq" Type="Real32" Value="5"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Acceleration">
+															<PluginInnerObject Name="" ID="{28B4FB4D-7102-4C24-9062-1A37B7EF0D8A}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="GrainWidth" Type="int32" Value="4"/>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.23"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Deceleration">
+															<PluginInnerObject Name="" ID="{8555C140-B9B4-4F8E-B135-F2A3F1CCD366}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="GrainWidth" Type="int32" Value="4"/>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.86"/>
+																	<Property Name="LoadVolumeOn" Type="Real32" Value="0.46"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+													</PluginInnerObjectList>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrankcaseAudio REV" ID="{BA9F8CD0-7263-45A6-8856-3109A3DFC829}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Car2" ID="{6F1FE911-8A2F-4131-942B-C7A5858BD3B3}" ShortID="1062246367">
+											<Comment>Ferrari 430</Comment>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="CrankcaseAudio REV" ID="{112DB461-E1CB-47E7-9103-3393D768025D}" ShortID="918325189" PluginName="CrankcaseAudio REV" CompanyID="261" PluginID="416">
+													<PropertyList>
+														<Property Name="Gear" Type="int32" Value="6"/>
+														<Property Name="RPM" Type="Real32" Value="0.13">
+															<RTPCList>
+																<RTPC Name="" ID="{61E3F299-24C8-49CC-A3B7-3E7DA519B3D0}" ShortID="756252463">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P1_Speed" ID="{16DCA0A6-F42D-472B-8BA5-88417E352DF9}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{6C3B4F23-E0FC-4D8D-B598-5F0FBEDCDCDB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="Throttle" Type="Real32" Value="0.6">
+															<RTPCList>
+																<RTPC Name="" ID="{FAA8EE07-67D5-4B8F-BFD0-06D20B8D9828}" ShortID="598682964">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P1_Speed" ID="{16DCA0A6-F42D-472B-8BA5-88417E352DF9}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{49B71AAC-B997-4E1A-84D9-1F9D72FBE88F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>17.04142</XPos>
+																				<YPos>0.28982</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.78068</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Ferrari_430" ID="{CC61DDED-26D9-4860-BC20-AF118272777B}" ShortID="278238895">
+															<ParentPluginID>27267154</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Ferrari_430.model"/>
+															</PropertyList>
+															<ConvertedFileIDList>
+																<File ID="673251954"/>
+															</ConvertedFileIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+													<PluginInnerObjectList>
+														<List Name="AccelDecelModelControlData">
+															<PluginInnerObject Name="" ID="{8B0CF9C6-911D-469F-AB6E-D4AB43AE05E3}" PluginName="AccelDecelModelControlData" CompanyID="261" PluginID="418">
+																<PropertyList>
+																	<Property Name="AccelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.73</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="DecelVolume_On" Type="Real32">
+																		<ValueList>
+																			<Value>0.16</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="GrainWidth" Type="int32">
+																		<ValueList>
+																			<Value>3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="IdleVolume" Type="Real32" Value="0.48"/>
+																	<Property Name="PopDuration" Type="Real32">
+																		<ValueList>
+																			<Value>0.7</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopRange" Type="int32">
+																		<ValueList>
+																			<Value>3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsEngineDuck" Type="Real32">
+																		<ValueList>
+																			<Value>0.3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMax" Type="Real32">
+																		<ValueList>
+																			<Value>0.2</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMin" Type="Real32">
+																		<ValueList>
+																			<Value>0.01</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMax" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMin" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="Version" Type="int32" Value="2"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="EngineSimulationControlData">
+															<PluginInnerObject Name="" ID="{C395B735-CF7C-4849-80BB-83E0B445C2FB}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417">
+																<PropertyList>
+																	<Property Name="ClutchRPMMergeTime" Type="Real32" Value="0.3"/>
+																	<Property Name="ClutchRPMSpikeDuration" Type="Real32" Value="0.3"/>
+																	<Property Name="DownShiftDuration" Type="Real32" Value="0.15"/>
+																	<Property Name="UpShiftDuration" Type="Real32" Value="0.05"/>
+																	<Property Name="UpShiftWobbleDuration" Type="Real32" Value="0.6"/>
+																	<Property Name="UpShiftWobblePitchFreq" Type="Real32" Value="12"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Acceleration">
+															<PluginInnerObject Name="" ID="{C702D8C1-65E9-4744-A7B7-C64D38E1D49C}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="GrainWidth" Type="int32" Value="3"/>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.73"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Deceleration">
+															<PluginInnerObject Name="" ID="{59451BF4-D879-48DF-A764-BD2206CBD299}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="GrainWidth" Type="int32" Value="3"/>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.8"/>
+																	<Property Name="LoadVolumeOn" Type="Real32" Value="0.16"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+													</PluginInnerObjectList>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrankcaseAudio REV" ID="{112DB461-E1CB-47E7-9103-3393D768025D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Car2" ID="{6F1FE911-8A2F-4131-942B-C7A5858BD3B3}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Car1" ID="{41A5C44E-7C33-4BF6-9596-3B67A0B44524}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Car3" ID="{362F4F9B-FEE1-41E5-9383-4F13856EA334}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="P1_Car2" ID="{6928D101-F4AB-47A3-A468-6F37F7C5388C}"/>
+												<ItemList>
+													<ItemRef Name="Car2" ID="{6F1FE911-8A2F-4131-942B-C7A5858BD3B3}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="P1_Car1" ID="{060AD35F-17D8-4CC7-B914-439FE3C00829}"/>
+												<ItemList>
+													<ItemRef Name="Car1" ID="{41A5C44E-7C33-4BF6-9596-3B67A0B44524}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="P1_Car3" ID="{CDE593A1-497E-428C-A8FD-8B78D0E0C780}"/>
+												<ItemList>
+													<ItemRef Name="Car3" ID="{362F4F9B-FEE1-41E5-9383-4F13856EA334}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="P2_CarType" ID="{D60AD414-8E2F-4E8D-8479-2E99A78E75D2}" ShortID="788252395">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="P2_CarChoice" ID="{D5DC3737-9B8B-4036-A955-0CCE54F5A643}" WorkUnitID="{DCED3942-3BC7-4DFF-9272-F9721D5CA700}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Car1" ID="{8D181295-1C35-48E1-AE10-36C5A86D8334}" ShortID="580411725">
+											<Comment>Chevrolet Camaro SS</Comment>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="CrankcaseAudio REV" ID="{87413FC1-8CEC-4F26-B8F6-9743B39651E4}" ShortID="837847651" PluginName="CrankcaseAudio REV" CompanyID="261" PluginID="416">
+													<PropertyList>
+														<Property Name="RPM" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{E60A3A54-A5EC-4953-BC0C-7E881AEBD771}" ShortID="272051801">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P2_Speed" ID="{AD06E686-D36A-47EF-80D2-694655704B12}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{D84405D5-DD74-4D76-A92C-9A3AFEDD4C27}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="Throttle" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{4D94F99B-42FF-48E6-AB72-AB2EFBFFFA96}" ShortID="983064583">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P2_Speed" ID="{AD06E686-D36A-47EF-80D2-694655704B12}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{E250FF9A-7885-4D50-9CB3-4AD6C8504A6F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20.35503</XPos>
+																				<YPos>0.3107</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.8564</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Chevrolet_Camaro_SS" ID="{4A8F8BF8-F6FE-4929-9D41-AF5D16816196}" ShortID="675845043">
+															<ParentPluginID>27267154</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Chevrolet_Camaro_SS.model"/>
+															</PropertyList>
+															<ConvertedFileIDList>
+																<File ID="614481336"/>
+															</ConvertedFileIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+													<PluginInnerObjectList>
+														<List Name="AccelDecelModelControlData">
+															<PluginInnerObject Name="" ID="{3E93D4CF-4548-4C06-A248-E2394A4B8A77}" PluginName="AccelDecelModelControlData" CompanyID="261" PluginID="418">
+																<PropertyList>
+																	<Property Name="AccelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.46</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="DecelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.46</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopDuration" Type="Real32">
+																		<ValueList>
+																			<Value>0.7</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopRange" Type="int32">
+																		<ValueList>
+																			<Value>3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsEngineDuck" Type="Real32">
+																		<ValueList>
+																			<Value>0.3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMax" Type="Real32">
+																		<ValueList>
+																			<Value>0.2</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMin" Type="Real32">
+																		<ValueList>
+																			<Value>0.01</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMax" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMin" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="Version" Type="int32" Value="2"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="EngineSimulationControlData">
+															<PluginInnerObject Name="" ID="{DECE8CE1-476E-4734-82EC-D811B35A0860}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417">
+																<PropertyList>
+																	<Property Name="ClutchRPMMergeTime" Type="Real32" Value="0.3"/>
+																	<Property Name="ClutchRPMSpike" Type="Real32" Value="0.66"/>
+																	<Property Name="UpShiftAttackThrottleTime" Type="Real32" Value="0.1"/>
+																	<Property Name="UpShiftDuration" Type="Real32" Value="0.4"/>
+																	<Property Name="UpShiftWobbleDuration" Type="Real32" Value="0.45"/>
+																	<Property Name="UpShiftWobblePitchAmp" Type="Real32" Value="0.5"/>
+																	<Property Name="UpShiftWobblePitchFreq" Type="Real32" Value="50"/>
+																	<Property Name="UpShiftWobbleVolFreq" Type="Real32" Value="10"/>
+																</PropertyList>
+															</PluginInnerObject>
+															<PluginInnerObject Name="" ID="{8F974805-F969-48C7-9064-52EF94E88B0B}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417"/>
+														</List>
+														<List Name="GranularModelControlData_Acceleration">
+															<PluginInnerObject Name="" ID="{8A28777D-C654-4C88-8C95-06E9CC68810E}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.46"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Deceleration">
+															<PluginInnerObject Name="" ID="{E59B0847-A5DF-43F2-80A7-D043DF6A0ABE}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.46"/>
+																	<Property Name="LoadVolumeOn" Type="Real32" Value="0"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+													</PluginInnerObjectList>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrankcaseAudio REV" ID="{87413FC1-8CEC-4F26-B8F6-9743B39651E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Car3" ID="{B6FD0386-9D25-408F-A517-E1F39D6BDD99}" ShortID="399701372">
+											<Comment>Honda Civic</Comment>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="CrankcaseAudio REV" ID="{7A2E7045-0285-4CFF-87B9-8FDEE3D2C59C}" ShortID="412406785" PluginName="CrankcaseAudio REV" CompanyID="261" PluginID="416">
+													<PropertyList>
+														<Property Name="RPM" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{BB14BFD1-0E5C-4572-B89E-1D2B3359CD5F}" ShortID="903944042">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P2_Speed" ID="{AD06E686-D36A-47EF-80D2-694655704B12}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{995AA490-6511-4705-8193-341F19CFBAA0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="Throttle" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{047688DB-0C6E-44A3-BADF-BAC9868C3CA4}" ShortID="219114593">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P2_Speed" ID="{AD06E686-D36A-47EF-80D2-694655704B12}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{25B346D9-5475-4DAF-94BE-CA44AA3C669F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>27.33728</XPos>
+																				<YPos>0.37598</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.84073</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Honda_Civic" ID="{676EE4F2-6DF1-42E5-A9D0-A65A9006DBF3}" ShortID="359649005">
+															<ParentPluginID>27267154</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Honda_Civic.model"/>
+															</PropertyList>
+															<ConvertedFileIDList>
+																<File ID="477695397"/>
+															</ConvertedFileIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+													<PluginInnerObjectList>
+														<List Name="AccelDecelModelControlData">
+															<PluginInnerObject Name="" ID="{FC4FCEB4-A4E0-4DF8-B9FD-A8E63F6518D9}" PluginName="AccelDecelModelControlData" CompanyID="261" PluginID="418">
+																<PropertyList>
+																	<Property Name="AccelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.23</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="DecelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.86</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="DecelVolume_On" Type="Real32">
+																		<ValueList>
+																			<Value>0.46</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="GrainWidth" Type="int32">
+																		<ValueList>
+																			<Value>4</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="IdleRampIn" Type="Real32" Value="0.03"/>
+																	<Property Name="IdleVolume" Type="Real32" Value="0.5"/>
+																	<Property Name="LowPassEnabled" Type="bool" Value="False"/>
+																	<Property Name="PopDuration" Type="Real32">
+																		<ValueList>
+																			<Value>0.7</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopRange" Type="int32">
+																		<ValueList>
+																			<Value>3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsEngineDuck" Type="Real32">
+																		<ValueList>
+																			<Value>0.3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMax" Type="Real32">
+																		<ValueList>
+																			<Value>0.2</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMin" Type="Real32">
+																		<ValueList>
+																			<Value>0.01</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMax" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMin" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="Version" Type="int32" Value="2"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="EngineSimulationControlData">
+															<PluginInnerObject Name="" ID="{34EAFF49-D471-4434-931C-8E735E04A7FF}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417">
+																<PropertyList>
+																	<Property Name="ClutchRPMMergeTime" Type="Real32" Value="0.68"/>
+																	<Property Name="ClutchRPMSpike" Type="Real32" Value="0.5"/>
+																	<Property Name="DownShiftDuration" Type="Real32" Value="0.54"/>
+																	<Property Name="UpShiftAttackThrottleTime" Type="Real32" Value="0.2"/>
+																	<Property Name="UpShiftWobbleDuration" Type="Real32" Value="0.55"/>
+																	<Property Name="UpShiftWobblePitchAmp" Type="Real32" Value="0.276"/>
+																	<Property Name="UpShiftWobblePitchFreq" Type="Real32" Value="9"/>
+																	<Property Name="UpShiftWobbleVolAmp" Type="Real32" Value="0.3"/>
+																	<Property Name="UpShiftWobbleVolFreq" Type="Real32" Value="5"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Acceleration">
+															<PluginInnerObject Name="" ID="{F935CC65-627D-4FE5-A543-DC9CD94F03BC}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="GrainWidth" Type="int32" Value="4"/>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.23"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Deceleration">
+															<PluginInnerObject Name="" ID="{B944FFC7-6D6A-4516-8196-1A3352847EAE}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="GrainWidth" Type="int32" Value="4"/>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.86"/>
+																	<Property Name="LoadVolumeOn" Type="Real32" Value="0.46"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+													</PluginInnerObjectList>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrankcaseAudio REV" ID="{7A2E7045-0285-4CFF-87B9-8FDEE3D2C59C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Car2" ID="{2DE89525-A995-4841-91F0-2DF440C3BC2F}" ShortID="620217820">
+											<Comment>Ferrari 430</Comment>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="CrankcaseAudio REV" ID="{083EB814-3717-4E39-9F43-A0CFB4B165FD}" ShortID="228594149" PluginName="CrankcaseAudio REV" CompanyID="261" PluginID="416">
+													<PropertyList>
+														<Property Name="Gear" Type="int32" Value="6"/>
+														<Property Name="RPM" Type="Real32" Value="0.13">
+															<RTPCList>
+																<RTPC Name="" ID="{F77FA9DD-E8F0-4BBA-93A0-564E21DF406D}" ShortID="189005413">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P2_Speed" ID="{AD06E686-D36A-47EF-80D2-694655704B12}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{72B09563-C7DF-45B8-B679-71FE78024042}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.98956</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="Throttle" Type="Real32" Value="0.6">
+															<RTPCList>
+																<RTPC Name="" ID="{17564176-2D55-4E9F-AA8A-8CE8E1423B64}" ShortID="227976304">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="P2_Speed" ID="{AD06E686-D36A-47EF-80D2-694655704B12}" WorkUnitID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{AE7242D5-0091-4ED3-BBFC-17DB7C9C54DC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20.11834</XPos>
+																				<YPos>0.30255</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.8564</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ChildrenList>
+														<PluginMediaSource Name="Ferrari_430" ID="{B99146B6-74D8-47FD-96FE-95206DF70881}" ShortID="535811880">
+															<ParentPluginID>27267154</ParentPluginID>
+															<PropertyList>
+																<Property Name="DataFileName" Type="string" Value="Ferrari_430.model"/>
+															</PropertyList>
+															<ConvertedFileIDList>
+																<File ID="673251954"/>
+															</ConvertedFileIDList>
+														</PluginMediaSource>
+													</ChildrenList>
+													<Language>SFX</Language>
+													<PluginInnerObjectList>
+														<List Name="AccelDecelModelControlData">
+															<PluginInnerObject Name="" ID="{7F2CC1D3-7D49-46FE-8624-4C5332CBD41F}" PluginName="AccelDecelModelControlData" CompanyID="261" PluginID="418">
+																<PropertyList>
+																	<Property Name="AccelVolume_Off" Type="Real32">
+																		<ValueList>
+																			<Value>0.73</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="DecelVolume_On" Type="Real32">
+																		<ValueList>
+																			<Value>0.16</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="GrainWidth" Type="int32">
+																		<ValueList>
+																			<Value>3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="IdleVolume" Type="Real32" Value="0.48"/>
+																	<Property Name="PopDuration" Type="Real32">
+																		<ValueList>
+																			<Value>0.7</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopRange" Type="int32">
+																		<ValueList>
+																			<Value>3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsEngineDuck" Type="Real32">
+																		<ValueList>
+																			<Value>0.3</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMax" Type="Real32">
+																		<ValueList>
+																			<Value>0.2</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsFreqMin" Type="Real32">
+																		<ValueList>
+																			<Value>0.01</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMax" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="PopsVolumeMin" Type="Real32">
+																		<ValueList>
+																			<Value>1</Value>
+																		</ValueList>
+																	</Property>
+																	<Property Name="Version" Type="int32" Value="2"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="EngineSimulationControlData">
+															<PluginInnerObject Name="" ID="{7D208B20-01E0-4C1A-B750-47EC60D15330}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417">
+																<PropertyList>
+																	<Property Name="ClutchRPMMergeTime" Type="Real32" Value="0.3"/>
+																	<Property Name="ClutchRPMSpikeDuration" Type="Real32" Value="0.3"/>
+																	<Property Name="DownShiftDuration" Type="Real32" Value="0.15"/>
+																	<Property Name="UpShiftDuration" Type="Real32" Value="0.05"/>
+																	<Property Name="UpShiftWobbleDuration" Type="Real32" Value="0.6"/>
+																	<Property Name="UpShiftWobblePitchFreq" Type="Real32" Value="12"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Acceleration">
+															<PluginInnerObject Name="" ID="{B872B73C-FAD6-49C6-8AC8-8857DC96B42D}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="GrainWidth" Type="int32" Value="3"/>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.73"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+														<List Name="GranularModelControlData_Deceleration">
+															<PluginInnerObject Name="" ID="{5F8EA53B-7061-4BF1-8053-77D4974331FD}" PluginName="GranularModelControlData" CompanyID="261" PluginID="419">
+																<PropertyList>
+																	<Property Name="GrainWidth" Type="int32" Value="3"/>
+																	<Property Name="LoadVolumeOff" Type="Real32" Value="0.8"/>
+																	<Property Name="LoadVolumeOn" Type="Real32" Value="0.16"/>
+																</PropertyList>
+															</PluginInnerObject>
+														</List>
+													</PluginInnerObjectList>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrankcaseAudio REV" ID="{083EB814-3717-4E39-9F43-A0CFB4B165FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Car2" ID="{2DE89525-A995-4841-91F0-2DF440C3BC2F}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Car3" ID="{B6FD0386-9D25-408F-A517-E1F39D6BDD99}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Car1" ID="{8D181295-1C35-48E1-AE10-36C5A86D8334}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="P2_Car3" ID="{F6883B18-9330-4398-B4BF-51B2B4418E2D}"/>
+												<ItemList>
+													<ItemRef Name="Car3" ID="{B6FD0386-9D25-408F-A517-E1F39D6BDD99}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="P2_Car2" ID="{8854B53C-E9C6-43ED-A5D3-6AEF0AE48839}"/>
+												<ItemList>
+													<ItemRef Name="Car2" ID="{2DE89525-A995-4841-91F0-2DF440C3BC2F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="P2_Car1" ID="{AF884B61-1903-44B6-9B34-73EDFED63F7A}"/>
+												<ItemList>
+													<ItemRef Name="Car1" ID="{8D181295-1C35-48E1-AE10-36C5A86D8334}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

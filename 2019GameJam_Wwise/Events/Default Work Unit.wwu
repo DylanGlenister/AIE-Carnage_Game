@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="CAR" ID="{1A25D49F-2F34-4AC5-9C87-81CD3380D1D4}" ShortID="291050470">
+					<ChildrenList>
+						<Event Name="CAR_EngineStart" ID="{8559939B-8E02-48CF-9054-CDD68839BED5}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SCENE" ID="{AA863633-7405-4E33-A625-F4AE40AD37EF}" ShortID="735092015">
+					<ChildrenList>
+						<Event Name="SCNAwake" ID="{CDD7957E-9A03-4FAE-8E1C-4325B2A7C0B7}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

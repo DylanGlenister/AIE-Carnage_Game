@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0ABBF741-BDD0-469A-BE1C-6EE59CFE6572}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0ABBF741-BDD0-469A-BE1C-6EE59CFE6572}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="GENERAL" ID="{D58FEC6F-5B54-4C5C-B023-22A91A635A92}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{728CC22B-BF35-4174-A783-529E115D6E3C}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Factory Synth One" ID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}" WorkUnitID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{3C182944-2A84-46D3-B06E-577BB55F437B}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Factory Motion" ID="{45F59F79-DD77-478C-8337-3F8F3FFF3B84}" WorkUnitID="{45F59F79-DD77-478C-8337-3F8F3FFF3B84}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SceneMusic" ID="{6BFE002C-A1C9-47B3-984E-6F066A9744A7}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SCNForestMusic" ID="{95BE9D99-23D5-4869-BBB7-29CCD41B7D04}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SCNMainMenu" ID="{AA1DB8F3-5FB2-4BAF-8711-9E18F537BD27}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Factory SoundSeed Air Objects" ID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" WorkUnitID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Factory Crankcase REV" ID="{2281D8A6-A025-4F76-A975-15F183186BFC}" WorkUnitID="{2281D8A6-A025-4F76-A975-15F183186BFC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SCNAwake" ID="{CDD7957E-9A03-4FAE-8E1C-4325B2A7C0B7}" WorkUnitID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

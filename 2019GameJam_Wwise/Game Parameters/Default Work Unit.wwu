@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{0D470D2A-1538-4FDA-AEF6-228555498BAA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PLAYER" ID="{05A578ED-76F2-4330-9B20-E92F77515EBC}" ShortID="797612961">
+					<ChildrenList>
+						<Folder Name="CAR" ID="{69783DEE-FA38-4C69-B506-48F8EEE70D89}" ShortID="451919242">
+							<ChildrenList>
+								<GameParameter Name="P1_Speed" ID="{16DCA0A6-F42D-472B-8BA5-88417E352DF9}"/>
+								<GameParameter Name="P2_Speed" ID="{AD06E686-D36A-47EF-80D2-694655704B12}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
