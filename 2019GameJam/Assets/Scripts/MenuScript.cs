@@ -12,14 +12,12 @@ public class MenuScript : MonoBehaviour
     public GameObject m_goPlayBtn;
     public GameObject m_goQuitBtn;
 
-    public GameObject m_goLvl1Btn;
-    public GameObject m_goLvl2Btn;
+    public GameObject m_goLvlBtns;
 
     private void Start()
     {
         // Initialises the level buttons to be hidden
-        m_goLvl1Btn.SetActive(false);
-        m_goLvl2Btn.SetActive(false);
+        m_goLvlBtns.SetActive(false);
     }
 
     public void PlayBtnPress()
@@ -31,8 +29,7 @@ public class MenuScript : MonoBehaviour
             m_goQuitBtn.transform.position = m_goQuitBtn.transform.position + new Vector3(-m_fUIOffsetAmount * Screen.width, 0, 0);
 
             // Show the level selects
-            m_goLvl1Btn.SetActive(true);
-            m_goLvl2Btn.SetActive(true);
+            m_goLvlBtns.SetActive(true);
 
             m_bLevelSelectVisible = true;
         }
@@ -43,8 +40,7 @@ public class MenuScript : MonoBehaviour
             m_goQuitBtn.transform.position = m_goQuitBtn.transform.position + new Vector3(m_fUIOffsetAmount * Screen.width, 0, 0);
 
             // Hide the level select
-            m_goLvl1Btn.SetActive(false);
-            m_goLvl2Btn.SetActive(false);
+            m_goLvlBtns.SetActive(false);
 
             m_bLevelSelectVisible = false;
         }
@@ -52,7 +48,7 @@ public class MenuScript : MonoBehaviour
 
     public void Lvl1BtnPress()
     {
-
+        SceneManager.LoadScene(1);
     }
 
     public void QuitBtnPress()
