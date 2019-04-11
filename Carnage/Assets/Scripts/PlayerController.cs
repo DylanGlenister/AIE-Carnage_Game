@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     void Start ()
     {
         m_rbRigidbody = GetComponent<Rigidbody>();
-        m_bActive = true;
+        m_bActive = false;
 
         if (m_uiPlayerNo > 3)
             m_uiPlayerNo = 3;

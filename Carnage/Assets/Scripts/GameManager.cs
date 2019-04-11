@@ -5,62 +5,61 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public float timer;
-    private bool isActive;
-    public Text[] text_UI;
+    public float m_fTimer;
+    private bool m_bActive;
+    public Text m_tCountdownTxt;
 
-    public PlayerController controls;  
-  
-
-	// Use this for initialization
+    public PlayerController[] m_goPlayers;
+    
 	void Start ()
     {
-        isActive = false;
-        timer = 0;
+        m_bActive = false;
+        m_fTimer = 0;
 
-       for(int i = 0; i < text_UI.Length; i++)
-       {
-            text_UI[i].enabled = false;
-       }
-	}
+        m_tCountdownTxt.enabled = false;
+
+        for (int i = 0; i < m_goPlayers.Length; i++)
+        {
+            m_goPlayers[i].GetComponent<PlayerController>().m_bActive = false;
+        }
+    }
 	
-	// Update is called once per frame
 	void Update ()
     {
-        timer += Time.deltaTime;
-        if(isActive == false)
+        m_fTimer += Time.deltaTime;
+        if(m_bActive == false)
         {
-            controls.GetComponent<PlayerController>().m_bActive = false;
             CountDown();
         }
 	}
 
     public void CountDown()
     {
-        if(timer >= 1)
+        if(m_fTimer >= 1)
         {
-            text_UI[0].enabled = true;
+            m_tCountdownTxt.text = "3";
+            m_tCountdownTxt.enabled = true;
 
-            if (timer >= 2)
+            if (m_fTimer >= 2)
             {
-                text_UI[0].enabled = false;
-                text_UI[1].enabled = true;
+                m_tCountdownTxt.text = "2";
 
-                if (timer >= 3)
+                if (m_fTimer >= 3)
                 {
-                    text_UI[1].enabled = false;
-                    text_UI[2].enabled = true;
+                    m_tCountdownTxt.text = "1";
 
-                    if (timer >= 4)
+                    if (m_fTimer >= 4)
                     {
-                        text_UI[2].enabled = false;
-                        text_UI[3].enabled = true;
-                        controls.GetComponent<PlayerController>().m_bActive = true;
-
-                        if(timer >= 5)
+                        m_tCountdownTxt.text = "Go!";
+                        for (int i = 0; i < m_goPlayers.Length; i++)
                         {
-                            text_UI[3].enabled = false;
-                            isActive = true;
+                            m_goPlayers[i].GetComponent<PlayerController>().m_bActive = true;
+                        }
+
+                        if (m_fTimer >= 5)
+                        {
+                            m_tCountdownTxt.enabled = false;
+                            m_bActive = true;
                         }
                     }
                 }

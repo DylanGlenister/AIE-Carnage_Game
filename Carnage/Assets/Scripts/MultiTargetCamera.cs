@@ -17,15 +17,14 @@ public class MultiTargetCamera : MonoBehaviour
     private Vector3 movVelocity;
     private float zoomVelocity;
     private float fovScalar = 1f;
-
-    // Start is called before the first frame update
-    void Start() {
+    
+    void Start()
+    {
         cam = GetComponent<Camera>();
     }
 
-    // Update is called once per frame
-    void FixedUpdate() {
-        
+    void FixedUpdate()
+    { 
         if (targets.Count == 0) { return; }
 
         var bounds = new Bounds(targets[0].position, Vector3.zero);
@@ -34,8 +33,8 @@ public class MultiTargetCamera : MonoBehaviour
         Zoom(bounds);
     }
 
-    void Move(ref Bounds bounds) {
-
+    void Move(ref Bounds bounds)
+    {
         Vector3 centrePoint = GetCentrePoint(ref bounds);
         Vector3 newPos = centrePoint + offset;
         transform.position = Vector3.SmoothDamp(transform.position, newPos, ref movVelocity, smoothTime);
