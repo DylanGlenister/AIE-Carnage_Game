@@ -551,7 +551,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1670660793}
-        m_MethodName: PlayBtnPress
+        m_MethodName: Lvl1BtnPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -826,7 +826,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1670660793}
-        m_MethodName: PlayBtnPress
+        m_MethodName: Lvl1BtnPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1134,8 +1134,7 @@ MonoBehaviour:
   m_fUIOffsetAmount: 0.15
   m_goPlayBtn: {fileID: 1775439449}
   m_goQuitBtn: {fileID: 41709455}
-  m_goLvl1Btn: {fileID: 460393398}
-  m_goLvl2Btn: {fileID: 647138744}
+  m_goLvlBtns: {fileID: 223989948}
 --- !u!1 &1703612406
 GameObject:
   m_ObjectHideFlags: 0
