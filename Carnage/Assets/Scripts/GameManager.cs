@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour {
-
+public class GameManager : MonoBehaviour
+{
     public float timer;
     private bool isActive;
     public Text[] text_UI;
@@ -13,7 +13,8 @@ public class GameManager : MonoBehaviour {
   
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         isActive = false;
         timer = 0;
 
@@ -24,7 +25,8 @@ public class GameManager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         timer += Time.deltaTime;
         if(isActive == false)
         {

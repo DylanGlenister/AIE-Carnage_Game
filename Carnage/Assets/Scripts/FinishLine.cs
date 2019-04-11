@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FinishLine : MonoBehaviour {
-
+public class FinishLine : MonoBehaviour
+{
     //public Rigidbody rigid;
     public Image image;
     public Text text;
