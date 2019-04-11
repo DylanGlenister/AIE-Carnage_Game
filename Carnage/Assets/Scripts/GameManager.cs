@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour {
     public float timer;
     private bool isActive;
     public Text[] text_UI;
+
+    public PlayerController controls;  
   
 
 	// Use this for initialization
@@ -16,10 +18,9 @@ public class GameManager : MonoBehaviour {
         timer = 0;
 
        for(int i = 0; i < text_UI.Length; i++)
-        {
+       {
             text_UI[i].enabled = false;
-        }
-		
+       }
 	}
 	
 	// Update is called once per frame
@@ -27,6 +28,7 @@ public class GameManager : MonoBehaviour {
         timer += Time.deltaTime;
         if(isActive == false)
         {
+            controls.GetComponent<PlayerController>().m_bActive = false;
             CountDown();
         }
 	}
@@ -51,8 +53,13 @@ public class GameManager : MonoBehaviour {
                     {
                         text_UI[2].enabled = false;
                         text_UI[3].enabled = true;
+                        controls.GetComponent<PlayerController>().m_bActive = true;
 
-                        isActive = true;
+                        if(timer >= 5)
+                        {
+                            text_UI[3].enabled = false;
+                            isActive = true;
+                        }
                     }
                 }
             }

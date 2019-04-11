@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private bool m_bActive;
+    public bool m_bActive;
     public uint m_uiPlayerNo = 0;
 
     public float m_fSpeed = 50f;
