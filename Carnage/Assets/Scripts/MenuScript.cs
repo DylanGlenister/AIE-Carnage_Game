@@ -50,6 +50,11 @@ public class MenuScript : MonoBehaviour
         }
     }
 
+    public void Lvl1BtnPress()
+    {
+
+    }
+
     public void QuitBtnPress()
     {
         // Exits either the unity editor or the standalone
