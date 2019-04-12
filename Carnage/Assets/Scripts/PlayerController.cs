@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
         if (!m_bActive)
             return;
 
-        if (transform.position.y < -1)
+        if (transform.position.y < -0.5f)
         {
             m_bActive = false;
         }
