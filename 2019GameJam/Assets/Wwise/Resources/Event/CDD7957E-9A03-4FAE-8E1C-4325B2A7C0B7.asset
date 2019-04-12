@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d56a6aeab264e9c4a9c1b4d34713cbb9, type: 3}
   m_Name: CDD7957E-9A03-4FAE-8E1C-4325B2A7C0B7
   m_EditorClassIdentifier: 
-  objectName: SCNAwake
-  id: 2368342272
+  objectName: SCN_Start
+  id: 2845071622
   guid: CDD7957E-9A03-4FAE-8E1C-4325B2A7C0B7

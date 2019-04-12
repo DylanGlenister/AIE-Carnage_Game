@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d56a6aeab264e9c4a9c1b4d34713cbb9, type: 3}
+  m_Name: 09BCC6EC-67B9-4EFD-B53F-CE270E088A32
+  m_EditorClassIdentifier: 
+  objectName: SCN_Stop
+  id: 638345414
+  guid: 09BCC6EC-67B9-4EFD-B53F-CE270E088A32

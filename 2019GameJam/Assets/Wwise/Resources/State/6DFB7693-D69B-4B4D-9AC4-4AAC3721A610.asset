@@ -14,5 +14,5 @@ MonoBehaviour:
   objectName: SCNMainMenu
   id: 3797992041
   guid: 6DFB7693-D69B-4B4D-9AC4-4AAC3721A610
-  WwiseStateGroupReference: {fileID: 11400000, guid: c2b49e651bfca684b8599794922d410e,
+  WwiseStateGroupReference: {fileID: 11400000, guid: b8443d726b5578b4ebce8b8bef987664,
     type: 2}
