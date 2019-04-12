@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\GENERAL</ObjectPath>
+			<ShortName>GENERAL</ShortName>
+			<Path>GENERAL.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2368342272" Name="SCNAwake" ObjectPath="\Events\Default Work Unit\SCENE\SCNAwake" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="14598380" Language="SFX">
+					<ShortName>lava_A3.wav</ShortName>
+					<Path>SFX\lava_A3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="55838979" Language="SFX">
+					<ShortName>ice_A3.wav</ShortName>
+					<Path>SFX\ice_A3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="88413692" Language="SFX">
+					<ShortName>lava_A2.wav</ShortName>
+					<Path>SFX\lava_A2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="94752438" Language="SFX">
+					<ShortName>lava_B1.wav</ShortName>
+					<Path>SFX\lava_B1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="104226519" Language="SFX">
+					<ShortName>lava_A1.wav</ShortName>
+					<Path>SFX\lava_A1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="146609797" Language="SFX">
+					<ShortName>Music\menu_B1.wav</ShortName>
+					<Path>SFX\Music\menu_B1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="513449540" Language="SFX">
+					<ShortName>Music\menu_B3.wav</ShortName>
+					<Path>SFX\Music\menu_B3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="516757364" Language="SFX">
+					<ShortName>Music\menu_B2.wav</ShortName>
+					<Path>SFX\Music\menu_B2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="549615738" Language="SFX">
+					<ShortName>Music\menu_A1.wav</ShortName>
+					<Path>SFX\Music\menu_A1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="577462555" Language="SFX">
+					<ShortName>ice_A2.wav</ShortName>
+					<Path>SFX\ice_A2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="579389279" Language="SFX">
+					<ShortName>lava_B3.wav</ShortName>
+					<Path>SFX\lava_B3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="580633277" Language="SFX">
+					<ShortName>Music\menu_A3.wav</ShortName>
+					<Path>SFX\Music\menu_A3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="745757804" Language="SFX">
+					<ShortName>Music\menu_A2.wav</ShortName>
+					<Path>SFX\Music\menu_A2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="875681528" Language="SFX">
+					<ShortName>ice_B3.wav</ShortName>
+					<Path>SFX\ice_B3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="902628936" Language="SFX">
+					<ShortName>ice_B2.wav</ShortName>
+					<Path>SFX\ice_B2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="914589291" Language="SFX">
+					<ShortName>lava_B2.wav</ShortName>
+					<Path>SFX\lava_B2_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

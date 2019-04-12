@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="CAR" ID="{1A25D49F-2F34-4AC5-9C87-81CD3380D1D4}" ShortID="291050470">
+					<ChildrenList>
+						<Event Name="CAR_EngineStart" ID="{8559939B-8E02-48CF-9054-CDD68839BED5}"/>
+						<Event Name="CAR_Collision" ID="{E626EDD7-EBD1-482B-AB21-4B2EE6D1A7DC}">
+							<ChildrenList>
+								<Action Name="" ID="{89400C29-32DD-4B5C-ABF3-67F0BBD205AB}" ShortID="32120483">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Smash" ID="{2216DCE8-37E2-4BAF-B4A7-AFBD7BEC5A99}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CAR_RaceFinished" ID="{3477FEFE-A8E9-4908-BF95-07847FEE1F84}">
+							<ChildrenList>
+								<Action Name="" ID="{8846513C-F32C-491F-9254-3DD946C1F0C6}" ShortID="352759800">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MouseEnterExit" ID="{C2D78DEE-8E18-4560-A7FE-3B210D0168AA}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SCENE" ID="{AA863633-7405-4E33-A625-F4AE40AD37EF}" ShortID="735092015">
+					<ChildrenList>
+						<Event Name="SCN_Start" ID="{CDD7957E-9A03-4FAE-8E1C-4325B2A7C0B7}">
+							<ChildrenList>
+								<Action Name="" ID="{AEB58F08-7E2C-4786-BFEF-C939ECBC1105}" ShortID="672418887">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SceneMusic" ID="{6BFE002C-A1C9-47B3-984E-6F066A9744A7}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{60139E4B-C3AA-424B-B9F2-EBEEC96F2D54}" ShortID="564239119">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Track_Loc" ID="{7C0ECDDE-7D5B-4558-AC99-8B02210A10EF}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SCN_Stop" ID="{09BCC6EC-67B9-4EFD-B53F-CE270E088A32}">
+							<ChildrenList>
+								<Action Name="" ID="{D2AF95D1-7D8B-4B79-966A-37BAF365DFA2}" ShortID="1073209334">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Track_Loc" ID="{7C0ECDDE-7D5B-4558-AC99-8B02210A10EF}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2CAF6FA7-2DD1-4D08-8423-874C166F8518}" ShortID="860674380">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SceneMusic" ID="{6BFE002C-A1C9-47B3-984E-6F066A9744A7}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{70F48261-6B88-41B2-9486-168E0C2183BE}" ShortID="864455359">
+					<ChildrenList>
+						<Event Name="UI_UpDown_small" ID="{94B9E2E9-97DB-4133-B626-DEC3CF2B8467}">
+							<ChildrenList>
+								<Action Name="" ID="{3FA55DC7-545D-4C0D-AFA2-4A613549FAC0}" ShortID="849048914">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MouseUpDown_ping_short" ID="{80A317AB-614D-4B91-8F91-881B9C36E2BC}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_UpDown_big" ID="{5D2EE527-91B0-4FF0-83C4-E8D18D71FFCE}">
+							<ChildrenList>
+								<Action Name="" ID="{A1CBF61F-E96D-4346-99C2-E6B96529AFA0}" ShortID="1018999909">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MouseUpDown_ping" ID="{9B3219C0-82BB-4B2A-918D-E6C890532133}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI__EnterExit" ID="{180675B5-485B-47D8-9262-0189AFC24C25}">
+							<ChildrenList>
+								<Action Name="" ID="{BF2605D4-36E5-4974-A1CD-FC22C510791D}" ShortID="147996743">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MouseEnterExit" ID="{C2D78DEE-8E18-4560-A7FE-3B210D0168AA}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
