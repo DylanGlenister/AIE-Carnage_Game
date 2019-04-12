@@ -1,0 +1,522 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 516db07632c99d94986e271231a7c7b8, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: dcb087e300d02b49a0df3da4b4e90885
+    GuidInternal: 
+    m_lastTime: -8586465670316802325
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 4429183c842ad346b06e577bb55f437b
+    GuidInternal: 
+    m_lastTime: -8586465670335132903
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 41f7bb0ad0bd9a46be1c6ee59cfe6572
+    GuidInternal: 
+    m_lastTime: -8586465670316802325
+    List:
+    - name: GENERAL
+      guid: 6fec8fd5545b5c4cb02322a91a635a92
+      id: 133642231
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GENERAL
+        ObjectType: 7
+      Path: Default Work Unit\GENERAL
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8b2b8afa18c46b469dc643b15b558a6d
+    GuidInternal: 
+    m_lastTime: -8586465670335242611
+    List:
+    - name: CAR_EngineStart
+      guid: 9b935985028ecf489054cdd68839bed5
+      id: 3808887078
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CAR
+        ObjectType: 4
+      - ElementName: CAR_EngineStart
+        ObjectType: 3
+      Path: Default Work Unit\CAR\CAR_EngineStart
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SCN_Start
+      guid: 7e95d7cd039aae4f8e1c4325b2a7c0b7
+      id: 2845071622
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SCENE
+        ObjectType: 4
+      - ElementName: SCN_Start
+        ObjectType: 3
+      Path: Default Work Unit\SCENE\SCN_Start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SCN_Stop
+      guid: ecc6bc09b967fd4eb53fce270e088a32
+      id: 638345414
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SCENE
+        ObjectType: 4
+      - ElementName: SCN_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SCENE\SCN_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI__EnterExit
+      guid: b57506185b48d84792620189afc24c25
+      id: 3702647869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI__EnterExit
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI__EnterExit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_UpDown_big
+      guid: 27e52e5db091f04f83c4e8d18d71ffce
+      id: 4061754474
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_UpDown_big
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_UpDown_big
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_UpDown_small
+      guid: e9e2b994db973341b626dec3cf2b8467
+      id: 624972765
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_UpDown_small
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_UpDown_small
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2a0d470d3815da4faef6228555498baa
+    GuidInternal: 
+    m_lastTime: -8586465670335222651
+    List:
+    - name: P1_Speed
+      guid: a6a0dc162df42b478ba588417e352df9
+      id: 690232500
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PLAYER
+        ObjectType: 4
+      - ElementName: CAR
+        ObjectType: 4
+      - ElementName: P1_Speed
+        ObjectType: 13
+      Path: Default Work Unit\PLAYER\CAR\P1_Speed
+    - name: P2_Speed
+      guid: 86e606ad6ad3ef4780d2694655704b12
+      id: 1648238627
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PLAYER
+        ObjectType: 4
+      - ElementName: CAR
+        ObjectType: 4
+      - ElementName: P2_Speed
+        ObjectType: 13
+      Path: Default Work Unit\PLAYER\CAR\P2_Speed
+  - PhysicalPath: Game Parameters\Factory Motion.wwu
+    ParentPhysicalPath: 
+    guid: 225213d7dbd1d042adc0930743567776
+    GuidInternal: 
+    m_lastTime: -8586465670335262546
+    List:
+    - name: Playback_Rate
+      guid: e37e38283ac11643b9c3db5c521624af
+      id: 1524500807
+      PathAndIcons:
+      - ElementName: Factory Motion
+        ObjectType: 12
+      - ElementName: Playback_Rate
+        ObjectType: 13
+      Path: Factory Motion\Playback_Rate
+    - name: RPM
+      guid: 05aa129177f5fd449f4e4424158129e6
+      id: 796049864
+      PathAndIcons:
+      - ElementName: Factory Motion
+        ObjectType: 12
+      - ElementName: RPM
+        ObjectType: 13
+      Path: Factory Motion\RPM
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    ParentPhysicalPath: 
+    guid: 5577163b42fb8b4598bf96f557afb3b9
+    GuidInternal: 
+    m_lastTime: -8586465670335182768
+    List:
+    - name: SS_Air_Fear
+      guid: 59062ef746431c4ea1b1dab46a05101e
+      id: 1351367891
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+    - name: SS_Air_Freefall
+      guid: 37fe2d2f9e4f944d83d853cca39781ad
+      id: 3002758120
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+    - name: SS_Air_Fury
+      guid: dc79aea23acaba4696529986c322a87b
+      id: 1029930033
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+    - name: SS_Air_Month
+      guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      id: 2648548617
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+    - name: SS_Air_Presence
+      guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      id: 3847924954
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+    - name: SS_Air_RPM
+      guid: ab9048a3d5b92645a64d5290c43ef2dc
+      id: 822163944
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+    - name: SS_Air_Size
+      guid: efeb291393a12e47a38c64668b494879
+      id: 3074696722
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+    - name: SS_Air_Storm
+      guid: db8c3fe9d1063747acaf7cd44bbed783
+      id: 3715662592
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+    - name: SS_Air_TimeOfDay
+      guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      id: 3203397129
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+    - name: SS_Air_Turbulence
+      guid: 197ba8edaa73a0409f192073606db710
+      id: 4160247818
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 01365f8dc9eee347826e99790778315b
+    GuidInternal: 
+    m_lastTime: -8586465670316832245
+    List:
+    - name: Scene
+      guid: 44a05ede48910940b8e6e2fc151004f1
+      id: 1926883983
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Scene
+        ObjectType: 9
+      Path: Default Work Unit\Scene
+      values:
+      - name: None
+        guid: 02046ccc4bef0d46b27270a16e736737
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: SCNIceLevel
+        guid: cdb737b69ecb1b4b9d2d6f3cfbb70916
+        id: 192654518
+        PathAndIcons:
+        - ElementName: SCNIceLevel
+          ObjectType: 8
+      - name: SCNLavaLevel
+        guid: 2e8cc777cc97e846824bc0d575c20a9d
+        id: 4101634301
+        PathAndIcons:
+        - ElementName: SCNLavaLevel
+          ObjectType: 8
+      - name: SCNMainMenu
+        guid: 9376fb6d9bd64d4b9ac44aac3721a610
+        id: 3797992041
+        PathAndIcons:
+        - ElementName: SCNMainMenu
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 4239eddcc73bff4d9272f9721d5ca700
+    GuidInternal: 
+    m_lastTime: -8586465670316832245
+    List:
+    - name: Collider
+      guid: eb4c22fcd046314a891ed8aa40d76fec
+      id: 3721930865
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PLAYER
+        ObjectType: 4
+      - ElementName: COLLISION_WITH
+        ObjectType: 4
+      - ElementName: Collider
+        ObjectType: 11
+      Path: Default Work Unit\PLAYER\COLLISION_WITH\Collider
+      values:
+      - name: Checkpoint
+        guid: 568acdd74d706f40aa2649bbdc18f7a7
+        id: 612075679
+        PathAndIcons:
+        - ElementName: Checkpoint
+          ObjectType: 10
+      - name: Finish_Checkpoint
+        guid: 86f9b85e54024b418f6823fcaea2a9f0
+        id: 1487719781
+        PathAndIcons:
+        - ElementName: Finish_Checkpoint
+          ObjectType: 10
+      - name: OtherCar
+        guid: ba9f04725cf94b4cb627535b1ee5e926
+        id: 3471752377
+        PathAndIcons:
+        - ElementName: OtherCar
+          ObjectType: 10
+      - name: Wall
+        guid: fa4cdb98380e90458e9278ac15a06a8b
+        id: 2108779961
+        PathAndIcons:
+        - ElementName: Wall
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: P1_CarChoice
+      guid: ce15767e87bc5248955270d98fbef29e
+      id: 2352788226
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PLAYER
+        ObjectType: 4
+      - ElementName: CAR_CHOICE
+        ObjectType: 4
+      - ElementName: P1_CarChoice
+        ObjectType: 11
+      Path: Default Work Unit\PLAYER\CAR_CHOICE\P1_CarChoice
+      values:
+      - name: P1_Car1
+        guid: 5fd30a06d817c74cb914439fe3c00829
+        id: 1151487140
+        PathAndIcons:
+        - ElementName: P1_Car1
+          ObjectType: 10
+      - name: P1_Car2
+        guid: 01d12869abf4a347a4686f37f7c5388c
+        id: 1151487143
+        PathAndIcons:
+        - ElementName: P1_Car2
+          ObjectType: 10
+      - name: P1_Car3
+        guid: a193e5cd7e498c42a8fd8b78d0e0c780
+        id: 1151487142
+        PathAndIcons:
+        - ElementName: P1_Car3
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: P1_DrivingOn
+      guid: b1ee69cf61721f4e92cfc7765d5b5ec5
+      id: 720808783
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PLAYER
+        ObjectType: 4
+      - ElementName: DRIVING_ON
+        ObjectType: 4
+      - ElementName: P1_DrivingOn
+        ObjectType: 11
+      Path: Default Work Unit\PLAYER\DRIVING_ON\P1_DrivingOn
+      values:
+      - name: P1_onGrass
+        guid: 14f49cc02a2ddb46a80382610df4afe4
+        id: 2354807538
+        PathAndIcons:
+        - ElementName: P1_onGrass
+          ObjectType: 10
+      - name: P1_onRoad
+        guid: e5deb77e7b804f4cbcb5e120349468c1
+        id: 2273424654
+        PathAndIcons:
+        - ElementName: P1_onRoad
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: P2_CarChoice
+      guid: 3737dcd58b9b3640a9550cce54f5a643
+      id: 920705041
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PLAYER
+        ObjectType: 4
+      - ElementName: CAR_CHOICE
+        ObjectType: 4
+      - ElementName: P2_CarChoice
+        ObjectType: 11
+      Path: Default Work Unit\PLAYER\CAR_CHOICE\P2_CarChoice
+      values:
+      - name: P2_Car1
+        guid: 614b88af0319b6449b3473edfed63f7a
+        id: 2544039433
+        PathAndIcons:
+        - ElementName: P2_Car1
+          ObjectType: 10
+      - name: P2_Car2
+        guid: 3cb55488c6e9ed43a5d36aef0ae48839
+        id: 2544039434
+        PathAndIcons:
+        - ElementName: P2_Car2
+          ObjectType: 10
+      - name: P2_Car3
+        guid: 183b88f630939843b4bf51b2b4418e2d
+        id: 2544039435
+        PathAndIcons:
+        - ElementName: P2_Car3
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: P2_DrivingOn
+      guid: 822cb85258595a428f4c78ee5021cc9c
+      id: 3328732056
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PLAYER
+        ObjectType: 4
+      - ElementName: DRIVING_ON
+        ObjectType: 4
+      - ElementName: P2_DrivingOn
+        ObjectType: 11
+      Path: Default Work Unit\PLAYER\DRIVING_ON\P2_DrivingOn
+      values:
+      - name: P2_onGrass
+        guid: 551dbcf6a3510248a737d5b96532bcbb
+        id: 3704478681
+        PathAndIcons:
+        - ElementName: P2_onGrass
+          ObjectType: 10
+      - name: P2_onRoad
+        guid: 6b645cb57bebdc448f6d466536aef1c3
+        id: 3026002255
+        PathAndIcons:
+        - ElementName: P2_onRoad
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c1cbff2bed674a4aa6ee6b7118544500
+    GuidInternal: 
+    m_lastTime: -8586465670316852195
+    List: []
+  ExpandedItems:
+  - /2019GameJam_Wwise
+  - /2019GameJam_Wwise/Events
+  - /2019GameJam_Wwise/Events/Default Work Unit
+  - /2019GameJam_Wwise/Events/Default Work Unit/CAR
+  - /2019GameJam_Wwise/Events/Default Work Unit/UI
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
