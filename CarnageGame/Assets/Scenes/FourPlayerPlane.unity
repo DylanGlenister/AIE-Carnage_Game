@@ -145,11 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_fTimer: 0
   m_tCountdownTxt: {fileID: 0}
-  m_goPlayers:
-  - {fileID: 411693765}
-  - {fileID: 987940568}
-  - {fileID: 142300211}
-  - {fileID: 455863305}
+  m_goPlayers: []
 --- !u!114 &91132767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,11 +1140,7 @@ MonoBehaviour:
   maxFOV: 60
   sizeNormaliser: 0
   offset: {x: 0, y: 30, z: -20}
-  targets:
-  - {fileID: 411693768}
-  - {fileID: 987940571}
-  - {fileID: 142300214}
-  - {fileID: 455863308}
+  targets: []
 --- !u!1 &1282712217
 GameObject:
   m_ObjectHideFlags: 0

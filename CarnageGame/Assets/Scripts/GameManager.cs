@@ -16,6 +16,12 @@ public class GameManager : MonoBehaviour
         m_bActive = false;
         m_fTimer = 0;
 
+        m_goPlayers = new PlayerController[4];
+        m_goPlayers[0] = GameObject.FindGameObjectWithTag("PlayerOne").GetComponent<PlayerController>();
+        m_goPlayers[1] = GameObject.FindGameObjectWithTag("PlayerTwo").GetComponent<PlayerController>();
+        m_goPlayers[2] = GameObject.FindGameObjectWithTag("PlayerThree").GetComponent<PlayerController>();
+        m_goPlayers[3] = GameObject.FindGameObjectWithTag("PlayerFour").GetComponent<PlayerController>();
+
         m_tCountdownTxt = transform.GetChild(0).gameObject.GetComponent<Text>();
         m_tCountdownTxt.enabled = false;
 
