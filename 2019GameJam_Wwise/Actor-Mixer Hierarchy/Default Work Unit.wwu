@@ -476,6 +476,11 @@
 															</ModifierList>
 														</Property>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -790,6 +795,136 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SFX" ID="{E720597E-44D2-4AD0-8685-644E264F3F66}" ShortID="872895030">
+							<ChildrenList>
+								<BlendContainer Name="Smash" ID="{2216DCE8-37E2-4BAF-B4A7-AFBD7BEC5A99}" ShortID="651193582">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Glass" ID="{F9FF1E46-9A89-4B4C-B1A3-ED4D88EF6818}" ShortID="132538901">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Hats16_GlassShatter" ID="{4667D957-DCE6-4BC5-951F-2CB331EEB6CE}" ShortID="576183630">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hats16_GlassShatter" ID="{0F3D3D1E-8660-426B-964F-D29F80628D0B}" ShortID="726983653">
+															<Language>SFX</Language>
+															<AudioFile>Hats16_GlassShatter.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hats16_GlassShatter" ID="{0F3D3D1E-8660-426B-964F-D29F80628D0B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UZ_SS_percussion_glass_break" ID="{591AE06E-8AFC-4595-9CE7-25953F674BD2}" ShortID="792973341">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UZ_SS_percussion_glass_break" ID="{ACA3EE50-74D1-4EE9-BD7B-9D97DD52A92F}" ShortID="157912714">
+															<Language>SFX</Language>
+															<AudioFile>UZ_SS_percussion_glass_break.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UZ_SS_percussion_glass_break" ID="{ACA3EE50-74D1-4EE9-BD7B-9D97DD52A92F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Metal" ID="{BC38A1E4-9BCC-42F9-B2C0-3EE2369AC357}" ShortID="837144473">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-80</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="car_crash" ID="{9EE995FF-0544-4EC2-9581-90C62EFCCE72}" ShortID="455461419">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="car_crash" ID="{FCD97676-5593-4C87-BF81-50F5E300B73A}" ShortID="395120331">
+															<Language>SFX</Language>
+															<AudioFile>car_crash.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="car_crash" ID="{FCD97676-5593-4C87-BF81-50F5E300B73A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="car_crash2" ID="{531EFA65-99B1-4A8C-B2BF-74D60DF6AF16}" ShortID="786010299">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4CBBE71A-3375-46EB-91A0-4D7E7205379F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3C182944-2A84-46D3-B06E-577BB55F437B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="car_crash2" ID="{79119F65-D3C7-44F4-91CA-B04C120A4833}" ShortID="145153720">
+															<Language>SFX</Language>
+															<AudioFile>car_crash2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="car_crash2" ID="{79119F65-D3C7-44F4-91CA-B04C120A4833}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

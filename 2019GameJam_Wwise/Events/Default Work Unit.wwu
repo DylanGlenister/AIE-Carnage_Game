@@ -6,6 +6,28 @@
 				<Folder Name="CAR" ID="{1A25D49F-2F34-4AC5-9C87-81CD3380D1D4}" ShortID="291050470">
 					<ChildrenList>
 						<Event Name="CAR_EngineStart" ID="{8559939B-8E02-48CF-9054-CDD68839BED5}"/>
+						<Event Name="CAR_Collision" ID="{E626EDD7-EBD1-482B-AB21-4B2EE6D1A7DC}">
+							<ChildrenList>
+								<Action Name="" ID="{89400C29-32DD-4B5C-ABF3-67F0BBD205AB}" ShortID="32120483">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Smash" ID="{2216DCE8-37E2-4BAF-B4A7-AFBD7BEC5A99}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CAR_RaceFinished" ID="{3477FEFE-A8E9-4908-BF95-07847FEE1F84}">
+							<ChildrenList>
+								<Action Name="" ID="{8846513C-F32C-491F-9254-3DD946C1F0C6}" ShortID="352759800">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MouseEnterExit" ID="{C2D78DEE-8E18-4560-A7FE-3B210D0168AA}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SCENE" ID="{AA863633-7405-4E33-A625-F4AE40AD37EF}" ShortID="735092015">

@@ -514,9 +514,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /2019GameJam_Wwise
-  - /2019GameJam_Wwise/Events
-  - /2019GameJam_Wwise/Events/Default Work Unit
-  - /2019GameJam_Wwise/Events/Default Work Unit/CAR
-  - /2019GameJam_Wwise/Events/Default Work Unit/UI
+  - /2019GameJam_Wwise/States
+  - /2019GameJam_Wwise/States/Default Work Unit
+  - /2019GameJam_Wwise/States/Default Work Unit/Scene
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
