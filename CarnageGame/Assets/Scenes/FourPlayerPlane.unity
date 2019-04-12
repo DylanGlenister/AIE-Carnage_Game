@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_fTimer: 0
-  m_tCountdownTxt: {fileID: 195255014}
+  m_tCountdownTxt: {fileID: 0}
   m_goPlayers:
   - {fileID: 411693765}
   - {fileID: 987940568}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 142300211}
   m_Layer: 0
   m_Name: Player3
-  m_TagString: Untagged
+  m_TagString: PlayerThree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -259,8 +259,8 @@ MonoBehaviour:
   m_uiPlayerNo: 2
   m_fSpeed: 40
   m_rbRigidbody: {fileID: 0}
-  m_goLookObj: {fileID: 1282712217}
-  camera: {fileID: 1261217352}
+  m_goLookObj: {fileID: 0}
+  m_mtcCamera: {fileID: 0}
 --- !u!54 &142300212
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 411693765}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Untagged
+  m_TagString: PlayerOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,8 +484,8 @@ MonoBehaviour:
   m_uiPlayerNo: 0
   m_fSpeed: 40
   m_rbRigidbody: {fileID: 0}
-  m_goLookObj: {fileID: 1731540428}
-  camera: {fileID: 1261217352}
+  m_goLookObj: {fileID: 0}
+  m_mtcCamera: {fileID: 0}
 --- !u!54 &411693766
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 455863305}
   m_Layer: 0
   m_Name: Player4
-  m_TagString: Untagged
+  m_TagString: PlayerFour
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -624,8 +624,8 @@ MonoBehaviour:
   m_uiPlayerNo: 3
   m_fSpeed: 40
   m_rbRigidbody: {fileID: 0}
-  m_goLookObj: {fileID: 1599386751}
-  camera: {fileID: 1261217352}
+  m_goLookObj: {fileID: 0}
+  m_mtcCamera: {fileID: 0}
 --- !u!54 &455863306
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -826,7 +826,7 @@ GameObject:
   - component: {fileID: 987940568}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: PlayerTwo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -846,8 +846,8 @@ MonoBehaviour:
   m_uiPlayerNo: 1
   m_fSpeed: 40
   m_rbRigidbody: {fileID: 0}
-  m_goLookObj: {fileID: 1795479445}
-  camera: {fileID: 1261217352}
+  m_goLookObj: {fileID: 0}
+  m_mtcCamera: {fileID: 0}
 --- !u!54 &987940569
 Rigidbody:
   m_ObjectHideFlags: 0

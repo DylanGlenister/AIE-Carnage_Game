@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
         m_bActive = false;
         m_fTimer = 0;
 
+        m_tCountdownTxt = transform.GetChild(0).gameObject.GetComponent<Text>();
         m_tCountdownTxt.enabled = false;
 
         for (int i = 0; i < m_goPlayers.Length; i++)
