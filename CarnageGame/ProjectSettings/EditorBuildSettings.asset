@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 425017ec2157744409571dc5556e90d9
+  - enabled: 1
+    path: Assets/Scenes/FourPlayerPlane.unity
+    guid: fb364bbdf009d09479f1bb0e30f70b85
   m_configObjects: {}
