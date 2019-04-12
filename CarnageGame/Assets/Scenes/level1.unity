@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000002, guid: 3fd2979d4a4f2f84d837298a160d521c,
+  m_LightingDataAsset: {fileID: 112000002, guid: 0d3b1d7b5ee8de34aa280486fcb74a1f,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -5954,14 +5954,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91ef36c28fc57554a9bb5f65b2dfb4c2, type: 3}
+  m_Script: {fileID: 11500000, guid: ba19f4c4096bfd04eb027a9d019dc1f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothTime: 1
-  minFOV: 72
-  maxFOV: 95
+  smoothTime: 0.5
+  minFOV: 0
+  maxFOV: 0
   sizeNormaliser: 1
-  offset: {x: -0.4, y: 11.36, z: 5.38}
+  offset: {x: 0, y: 0, z: 0}
   targets:
   - {fileID: 1225352653}
 --- !u!1001 &544352757
@@ -12863,7 +12863,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1186908145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 809b257a1bbffee41b0c16d1a6d015ca, type: 3}
+  m_Script: {fileID: 11500000, guid: f80e16cb3752841438690872a7f47341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_bActive: 0
@@ -12871,6 +12871,7 @@ MonoBehaviour:
   m_fSpeed: 50
   m_rbRigidbody: {fileID: 0}
   m_goLookObj: {fileID: 2074399428}
+  camera: {fileID: 534669906}
 --- !u!65 &1186908147
 BoxCollider:
   m_ObjectHideFlags: 0
