@@ -50,6 +50,11 @@ public class MultiTargetCamera : MonoBehaviour
             bounds.Encapsulate(t.position);
         }
 
+        if (targets[0] == null)
+        {
+            bounds.Encapsulate(targets[1].position);
+        }
+
         return bounds.center;
     }
 

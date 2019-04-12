@@ -11,7 +11,10 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody m_rbRigidbody;
     public GameObject m_goLookObj;
-    
+
+    [Tooltip("Reference to the camera to realocate the cameras focus on the last player standing")]
+    public MultiTargetCamera camera;
+
     void Start ()
     {
         m_rbRigidbody = GetComponent<Rigidbody>();
@@ -29,6 +32,10 @@ public class PlayerController : MonoBehaviour
         if (transform.position.y < -0.5f)
         {
             m_bActive = false;
+            if (camera.targets.Count > 0)
+            {
+                camera.targets.Remove(this.gameObject.transform);
+            }
         }
 
         // Player one controls
