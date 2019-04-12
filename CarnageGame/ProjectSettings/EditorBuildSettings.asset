@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 425017ec2157744409571dc5556e90d9
   - enabled: 1
-    path: Assets/Scenes/FourPlayerPlane.unity
-    guid: fb364bbdf009d09479f1bb0e30f70b85
+    path: Assets/Scenes/level1.unity
+    guid: 21c3e0da9b3780846942006268fd926b
+  - enabled: 1
+    path: Assets/Scenes/level2.unity
+    guid: b75e3a80602dd40479c127cc267f075c
   m_configObjects: {}
