@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D5F3601-EEC9-47E3-826E-99790778315B}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{8D5F3601-EEC9-47E3-826E-99790778315B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Scene" ID="{DE5EA044-9148-4009-B8E6-E2FC151004F1}">
+					<ChildrenList>
+						<State Name="None" ID="{CC6C0402-EF4B-460D-B272-70A16E736737}"/>
+						<State Name="SCNMainMenu" ID="{6DFB7693-D69B-4B4D-9AC4-4AAC3721A610}"/>
+						<State Name="SCNLavaLevel" ID="{77C78C2E-97CC-46E8-824B-C0D575C20A9D}"/>
+						<State Name="SCNIceLevel" ID="{B637B7CD-CB9E-4B1B-9D2D-6F3CFBB70916}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

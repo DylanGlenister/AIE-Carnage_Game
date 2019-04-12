@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2368342272	SCNAwake			\Default Work Unit\SCENE\SCNAwake	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1926883983	Scene			\Default Work Unit\Scene	
+
+State	ID	Name	State Group			Notes
+	0	None	Scene			
+	192654518	SCNIceLevel	Scene			
+	3797992041	SCNMainMenu	Scene			
+	4101634301	SCNLavaLevel	Scene			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	14598380	lava_A3	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\lava_A3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNLavaLevel\lava_A3\lava_A3		1263828
+	55838979	ice_A3	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\ice_A3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNIceLevel\ice_A3\ice_A3		1263828
+	88413692	lava_A2	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\lava_A2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNLavaLevel\lava_A2\lava_A2		1263828
+	94752438	lava_B1	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\lava_B1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNLavaLevel\lava_B1\lava_B1		1263828
+	104226519	lava_A1	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\lava_A1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNLavaLevel\lava_A1\lava_A1		1263828
+	146609797	menu_B1	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\Music\menu_B1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNMainMenu\menu_B1\menu_B1		1263828
+	513449540	menu_B3	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\Music\menu_B3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNMainMenu\menu_B3\menu_B3		1263828
+	516757364	menu_B2	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\Music\menu_B2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNMainMenu\menu_B2\menu_B2		1263828
+	549615738	menu_A1	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\Music\menu_A1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNMainMenu\menu_A1\menu_A1		1263828
+	577462555	ice_A2	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\ice_A2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNIceLevel\ice_A2\ice_A2		1263828
+	579389279	lava_B3	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\lava_B3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNLavaLevel\lava_B3\lava_B3		1263828
+	580633277	menu_A3	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\Music\menu_A3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNMainMenu\menu_A3\menu_A3		1263828
+	745757804	menu_A2	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\Music\menu_A2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNMainMenu\menu_A2\menu_A2		1263828
+	875681528	ice_B3	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\ice_B3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNIceLevel\ice_B3\ice_B3		1263828
+	902628936	ice_B2	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\ice_B2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNIceLevel\ice_B2\ice_B2		1263828
+	914589291	lava_B2	C:\Users\s182378\Documents\Apr-2019_GameJam\2019GameJam\2019GameJam_Wwise\.cache\Windows\SFX\lava_B2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\SCNLavaLevel\lava_B2\lava_B2		1263828
+
