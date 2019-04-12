@@ -13,11 +13,14 @@ public class PlayerController : MonoBehaviour
     public GameObject m_goLookObj;
 
     [Tooltip("Reference to the camera to realocate the cameras focus on the last player standing")]
-    public MultiTargetCamera camera;
+    public MultiTargetCamera m_mtcCamera;
 
     void Start ()
     {
         m_rbRigidbody = GetComponent<Rigidbody>();
+        m_goLookObj = transform.GetChild(0).gameObject;
+        m_mtcCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MultiTargetCamera>();
+
         m_bActive = false;
 
         if (m_uiPlayerNo > 3)
@@ -32,9 +35,9 @@ public class PlayerController : MonoBehaviour
         if (transform.position.y < -0.5f)
         {
             m_bActive = false;
-            if (camera.targets.Count > 0)
+            if (m_mtcCamera.targets.Count > 0)
             {
-                camera.targets.Remove(this.gameObject.transform);
+                m_mtcCamera.targets.Remove(this.gameObject.transform);
             }
         }
 

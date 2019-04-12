@@ -140,16 +140,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 91132765}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68f70ac7f1b4b8b40bcd4ed96aac869b, type: 3}
+  m_Script: {fileID: 11500000, guid: 011f89beb6c81f949bc18a701dc37734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_fTimer: 0
-  m_tCountdownTxt: {fileID: 195255014}
-  m_goPlayers:
-  - {fileID: 411693765}
-  - {fileID: 987940568}
-  - {fileID: 142300211}
-  - {fileID: 455863305}
+  m_tCountdownTxt: {fileID: 0}
+  m_goPlayers: []
 --- !u!114 &91132767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,7 +235,7 @@ GameObject:
   - component: {fileID: 142300211}
   m_Layer: 0
   m_Name: Player3
-  m_TagString: Untagged
+  m_TagString: PlayerThree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -252,14 +248,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 142300210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fb560bfafa766a4ca24c95abab74078, type: 3}
+  m_Script: {fileID: 11500000, guid: 3eaf5ff62d37182499831516a9267432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_bActive: 0
   m_uiPlayerNo: 2
   m_fSpeed: 40
   m_rbRigidbody: {fileID: 0}
-  m_goLookObj: {fileID: 1282712217}
+  m_goLookObj: {fileID: 0}
+  m_mtcCamera: {fileID: 0}
 --- !u!54 &142300212
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -281,7 +278,7 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 142300210}
-  m_Material: {fileID: 13400000, guid: 56aa84e873c729247821f154b8b577ad, type: 2}
+  m_Material: {fileID: 13400000, guid: 2474f71d0c7e96748a00676f4b5acff5, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -423,7 +420,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 597a581f5cbdb6d429a11d59b63ffc3e, type: 2}
+  - {fileID: 2100000, guid: b22158e55c6647349aada263eea3c2d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -463,7 +460,7 @@ GameObject:
   - component: {fileID: 411693765}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Untagged
+  m_TagString: PlayerOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -476,14 +473,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 411693764}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fb560bfafa766a4ca24c95abab74078, type: 3}
+  m_Script: {fileID: 11500000, guid: 3eaf5ff62d37182499831516a9267432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_bActive: 0
   m_uiPlayerNo: 0
   m_fSpeed: 40
   m_rbRigidbody: {fileID: 0}
-  m_goLookObj: {fileID: 1731540428}
+  m_goLookObj: {fileID: 0}
+  m_mtcCamera: {fileID: 0}
 --- !u!54 &411693766
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -505,7 +503,7 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 411693764}
-  m_Material: {fileID: 13400000, guid: 56aa84e873c729247821f154b8b577ad, type: 2}
+  m_Material: {fileID: 13400000, guid: 2474f71d0c7e96748a00676f4b5acff5, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -602,7 +600,7 @@ GameObject:
   - component: {fileID: 455863305}
   m_Layer: 0
   m_Name: Player4
-  m_TagString: Untagged
+  m_TagString: PlayerFour
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -615,14 +613,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 455863304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fb560bfafa766a4ca24c95abab74078, type: 3}
+  m_Script: {fileID: 11500000, guid: 3eaf5ff62d37182499831516a9267432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_bActive: 0
   m_uiPlayerNo: 3
   m_fSpeed: 40
   m_rbRigidbody: {fileID: 0}
-  m_goLookObj: {fileID: 1599386751}
+  m_goLookObj: {fileID: 0}
+  m_mtcCamera: {fileID: 0}
 --- !u!54 &455863306
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -644,7 +643,7 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 455863304}
-  m_Material: {fileID: 13400000, guid: 56aa84e873c729247821f154b8b577ad, type: 2}
+  m_Material: {fileID: 13400000, guid: 2474f71d0c7e96748a00676f4b5acff5, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -711,7 +710,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: fb99f3e3183c2694d9300292df9f3cc5, type: 2}
+  - {fileID: 2100000, guid: 84f6c3689ca3b6144bb86bfb215f40af, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -783,7 +782,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 0dfa6e25a6dc95244847026d3b95837c, type: 2}
+  - {fileID: 2100000, guid: a19ba55afceed4e4282297701dcc32dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -823,7 +822,7 @@ GameObject:
   - component: {fileID: 987940568}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: PlayerTwo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -836,14 +835,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 987940567}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fb560bfafa766a4ca24c95abab74078, type: 3}
+  m_Script: {fileID: 11500000, guid: 3eaf5ff62d37182499831516a9267432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_bActive: 0
   m_uiPlayerNo: 1
   m_fSpeed: 40
   m_rbRigidbody: {fileID: 0}
-  m_goLookObj: {fileID: 1795479445}
+  m_goLookObj: {fileID: 0}
+  m_mtcCamera: {fileID: 0}
 --- !u!54 &987940569
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -865,7 +865,7 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 987940567}
-  m_Material: {fileID: 13400000, guid: 56aa84e873c729247821f154b8b577ad, type: 2}
+  m_Material: {fileID: 13400000, guid: 2474f71d0c7e96748a00676f4b5acff5, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -934,7 +934,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 461083af9f9aa9e4a8e908b40ecd7623, type: 2}
+  - {fileID: 2100000, guid: 971abf198f9a3484aa3bb5fb93cf5a77, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1019,7 +1019,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 623c0de9ab1091442869b490bdad75a7, type: 2}
+  - {fileID: 2100000, guid: 8e43511f30da704449aab06e1d071c67, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1132,19 +1132,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1261217348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8134c3eb47d432441aa7daa5e3ece4f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 53cd2000eab0c2348a5185858e55898d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothTime: 1
+  smoothTime: 0.5
   minFOV: 60
   maxFOV: 60
   sizeNormaliser: 0
   offset: {x: 0, y: 30, z: -20}
-  targets:
-  - {fileID: 411693768}
-  - {fileID: 987940571}
-  - {fileID: 142300214}
-  - {fileID: 455863308}
+  targets: []
 --- !u!1 &1282712217
 GameObject:
   m_ObjectHideFlags: 0

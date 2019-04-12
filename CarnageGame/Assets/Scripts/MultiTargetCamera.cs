@@ -21,6 +21,11 @@ public class MultiTargetCamera : MonoBehaviour
     void Start()
     {
         cam = GetComponent<Camera>();
+
+        targets.Add(GameObject.FindGameObjectWithTag("PlayerOne").transform);
+        targets.Add(GameObject.FindGameObjectWithTag("PlayerTwo").transform);
+        targets.Add(GameObject.FindGameObjectWithTag("PlayerThree").transform);
+        targets.Add(GameObject.FindGameObjectWithTag("PlayerFour").transform);
     }
 
     void FixedUpdate()
