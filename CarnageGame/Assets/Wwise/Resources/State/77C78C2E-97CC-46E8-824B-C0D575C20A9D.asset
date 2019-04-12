@@ -8,10 +8,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ad671fa0b873a148a0a1c16d4a53ddf, type: 3}
+  m_Script: {fileID: 11500000, guid: cde68713adb84aa41ba2f58439fc5455, type: 3}
   m_Name: 77C78C2E-97CC-46E8-824B-C0D575C20A9D
   m_EditorClassIdentifier: 
   objectName: SCNLavaLevel
   id: 4101634301
   guid: 77C78C2E-97CC-46E8-824B-C0D575C20A9D
-  WwiseStateGroupReference: {fileID: 0}
+  WwiseStateGroupReference: {fileID: 11400000, guid: 5cf543c1f8ea79344afda6b751398648,
+    type: 2}
