@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         if (!m_bActive)
             return;
 
-        if (transform.position.y < -0.5f)
+        if (transform.position.y < 0)
         {
             m_bActive = false;
             if (m_mtcCamera.targets.Count > 0)
