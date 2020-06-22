@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public float m_fTimer;
     private bool m_bActive;
+    public bool m_bGameOver;
+    public float m_fTimer;
     public Text m_tCountdownTxt;
 
     public PlayerController[] m_goPlayers;
     
 	void Start ()
     {
+        m_bGameOver = false;
         m_bActive = false;
         m_fTimer = 0;
 
@@ -37,6 +40,14 @@ public class GameManager : MonoBehaviour
         if(m_bActive == false)
         {
             CountDown();
+        }
+
+        if (m_bGameOver)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                SceneManager.LoadScene(0);
+            }
         }
 	}
 

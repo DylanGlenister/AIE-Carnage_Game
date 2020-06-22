@@ -11,11 +11,14 @@ public class MenuScript : MonoBehaviour
 
     public GameObject m_goPlayBtn;
     public GameObject m_goQuitBtn;
-
     public GameObject m_goLvlBtns;
 
     private void Start()
     {
+        m_goPlayBtn = transform.GetChild(1).gameObject;
+        m_goQuitBtn = transform.GetChild(2).gameObject;
+        m_goLvlBtns = transform.GetChild(3).gameObject;
+
         // Initialises the level buttons to be hidden
         m_goLvlBtns.SetActive(false);
     }
@@ -49,6 +52,11 @@ public class MenuScript : MonoBehaviour
     public void Lvl1BtnPress()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void Lvl2BtnPress()
+    {
+        SceneManager.LoadScene(2);
     }
 
     public void QuitBtnPress()
