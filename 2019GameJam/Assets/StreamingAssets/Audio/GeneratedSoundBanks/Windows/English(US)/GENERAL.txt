@@ -12,7 +12,6 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	0	None	Scene			
 	192654518	SCNIceLevel	Scene			
-	579938398	SCNEmpty	Scene			
 	3797992041	SCNMainMenu	Scene			
 	4101634301	SCNLavaLevel	Scene			
 

@@ -12,7 +12,9 @@
 						<ObjectRef Name="SceneMusic" ID="{6BFE002C-A1C9-47B3-984E-6F066A9744A7}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CAR_EngineStart" ID="{8559939B-8E02-48CF-9054-CDD68839BED5}" WorkUnitID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CAR_RaceFinished" ID="{3477FEFE-A8E9-4908-BF95-07847FEE1F84}" WorkUnitID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Smash" ID="{2216DCE8-37E2-4BAF-B4A7-AFBD7BEC5A99}" WorkUnitID="{728CC22B-BF35-4174-A783-529E115D6E3C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SCNMainMenu" ID="{AA1DB8F3-5FB2-4BAF-8711-9E18F537BD27}" WorkUnitID="{A4036DB4-8E83-48BB-9BCD-A04F54426336}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SCN_Stop" ID="{09BCC6EC-67B9-4EFD-B53F-CE270E088A32}" WorkUnitID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SCN_Start" ID="{CDD7957E-9A03-4FAE-8E1C-4325B2A7C0B7}" WorkUnitID="{FA8A2B8B-C418-466B-9DC6-43B15B558A6D}" Filter="7" Origin="Manual"/>

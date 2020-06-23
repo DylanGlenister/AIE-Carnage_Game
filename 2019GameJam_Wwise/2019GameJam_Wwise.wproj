@@ -28,7 +28,7 @@
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True" />
-				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../2019GameJam/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/" />
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../CarnageGame/Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">..\2019GameJam\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\English(US)\.\</Value>
