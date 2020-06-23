@@ -18,7 +18,7 @@ public class MultiTargetCamera : MonoBehaviour
     private float zoomVelocity;
     private float fovScalar = 1f;
     
-    void Start()
+    private void Start()
     {
         cam = GetComponent<Camera>();
 
@@ -28,30 +28,32 @@ public class MultiTargetCamera : MonoBehaviour
         targets.Add(GameObject.FindGameObjectWithTag("PlayerFour").transform);
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     { 
         if (targets.Count == 0) { return; }
 
-        var bounds = new Bounds(targets[0].position, Vector3.zero);
+        Bounds bounds = new Bounds(targets[0].position, Vector3.zero);
 
         Move(ref bounds);
         Zoom(bounds);
     }
 
-    void Move(ref Bounds bounds)
+    private void Move(ref Bounds bounds)
     {
         Vector3 centrePoint = GetCentrePoint(ref bounds);
         Vector3 newPos = centrePoint + offset;
         transform.position = Vector3.SmoothDamp(transform.position, newPos, ref movVelocity, smoothTime);
     }
 
-    Vector3 GetCentrePoint(ref Bounds bounds) {
-
-        if (targets.Count == 1) {
+    private Vector3 GetCentrePoint(ref Bounds bounds)
+    {
+        if (targets.Count == 1)
+        {
             return targets[0].position;
         }
 
-        foreach (Transform t in targets) {
+        foreach (Transform t in targets)
+        {
             bounds.Encapsulate(t.position);
         }
 
@@ -63,12 +65,14 @@ public class MultiTargetCamera : MonoBehaviour
         return bounds.center;
     }
 
-    void Zoom(Bounds bounds) {
-
-        if (targets.Count != 1) {
+    private void Zoom(Bounds bounds)
+    {
+        if (targets.Count != 1)
+        {
             fovScalar = Mathf.SmoothDamp(fovScalar, bounds.size.magnitude / sizeNormaliser, ref zoomVelocity, smoothTime);
         }
-        else {
+        else
+        {
             fovScalar = Mathf.SmoothDamp(fovScalar, .5f, ref zoomVelocity, smoothTime);
         }
         cam.fieldOfView = Mathf.Lerp(minFOV, maxFOV, fovScalar);

@@ -9,12 +9,12 @@ public class FinishLine : MonoBehaviour
     public Text m_txtUiText;
     public GameManager m_gmGameManager;
 
-    private void Start ()
+    private void Start()
     {
         m_bRaceOn = true;
     }
 
-    public void OnTriggerEnter (Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (!m_bRaceOn)
             return;
@@ -29,7 +29,7 @@ public class FinishLine : MonoBehaviour
         }
         
         // Player two wins
-        if (other.gameObject.tag == "PlayerTwo")
+        else if (other.gameObject.tag == "PlayerTwo")
         {
             m_bRaceOn = false;
             m_txtUiText.enabled = true;
@@ -38,7 +38,7 @@ public class FinishLine : MonoBehaviour
         }
         
         // Player three wins
-        if (other.gameObject.tag == "PlayerThree")
+        else if (other.gameObject.tag == "PlayerThree")
         {
             m_bRaceOn = false;
             m_txtUiText.enabled = true;
@@ -47,7 +47,7 @@ public class FinishLine : MonoBehaviour
         }
         
         // Player four wins
-        if (other.gameObject.tag == "PlayerFour")
+        else if (other.gameObject.tag == "PlayerFour")
         {
             m_bRaceOn = false;
             m_txtUiText.enabled = true;

@@ -9,11 +9,11 @@ public class GameManager : MonoBehaviour
     private bool m_bActive;
     public bool m_bGameOver;
     public float m_fTimer;
-    public Text m_tCountdownTxt;
+    private Text m_tCountdownTxt;
 
-    public PlayerController[] m_goPlayers;
-    
-	void Start ()
+    private PlayerController[] m_goPlayers;
+
+    private void Start()
     {
         m_bGameOver = false;
         m_bActive = false;
@@ -30,11 +30,11 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < m_goPlayers.Length; i++)
         {
-            m_goPlayers[i].GetComponent<PlayerController>().m_bActive = false;
+            m_goPlayers[i].GetComponent<PlayerController>().m_bIsAlive = false;
         }
     }
-	
-	void Update ()
+
+    private void Update()
     {
         m_fTimer += Time.deltaTime;
         if(m_bActive == false)
@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
         }
 	}
 
-    public void CountDown()
+    private void CountDown()
     {
         if(m_fTimer >= 1)
         {
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
                         m_tCountdownTxt.text = "Go!";
                         for (int i = 0; i < m_goPlayers.Length; i++)
                         {
-                            m_goPlayers[i].GetComponent<PlayerController>().m_bActive = true;
+                            m_goPlayers[i].GetComponent<PlayerController>().m_bIsAlive = true;
                         }
 
                         if (m_fTimer >= 5)

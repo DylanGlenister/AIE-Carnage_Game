@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
     private bool m_bLevelSelectVisible = false;
-    public float m_fUIOffsetAmount;
+    private float m_fUIOffsetAmount = 0.15f;
 
-    public GameObject m_goPlayBtn;
-    public GameObject m_goQuitBtn;
-    public GameObject m_goLvlBtns;
+    private GameObject m_goPlayBtn;
+    private GameObject m_goQuitBtn;
+    private GameObject m_goLvlBtns;
 
     private void Start()
     {
